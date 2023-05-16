@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="49257" started-at="2023-02-15T16:54:34 IST" finished-at="2023-02-15T16:55:23 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="49257" started-at="2023-02-15T16:54:34 IST" finished-at="2023-02-15T16:55:23 IST">
+      <class name="testNGPractice1.TestNG4">
+        <test-method status="PASS" signature="brave()[pri:0, instance:testNGPractice1.TestNG4@a7e666]" name="brave" duration-ms="4119" started-at="2023-02-15T16:55:05 IST" finished-at="2023-02-15T16:55:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brave -->
+        <test-method status="PASS" signature="chrome()[pri:0, instance:testNGPractice1.TestNG4@a7e666]" name="chrome" duration-ms="3278" started-at="2023-02-15T16:55:09 IST" finished-at="2023-02-15T16:55:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome -->
+        <test-method status="PASS" signature="edge()[pri:0, instance:testNGPractice1.TestNG4@a7e666]" name="edge" duration-ms="4809" started-at="2023-02-15T16:55:12 IST" finished-at="2023-02-15T16:55:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edge -->
+        <test-method status="PASS" signature="firefox()[pri:0, instance:testNGPractice1.TestNG4@a7e666]" name="firefox" duration-ms="5573" started-at="2023-02-15T16:55:17 IST" finished-at="2023-02-15T16:55:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefox -->
+        <test-method status="PASS" signature="text()[pri:0, instance:testNGPractice1.TestNG4@a7e666]" name="text" duration-ms="0" started-at="2023-02-15T16:55:23 IST" finished-at="2023-02-15T16:55:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- text -->
+      </class> <!-- testNGPractice1.TestNG4 -->
+      <class name="testNGPractice1.TestNG2">
+        <test-method status="PASS" signature="test1()[pri:0, instance:testNGPractice1.TestNG2@6737fd8f]" name="test1" duration-ms="5492" started-at="2023-02-15T16:55:00 IST" finished-at="2023-02-15T16:55:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testNGPractice1.TestNG2 -->
+      <class name="testNGPractice1.TestNG1">
+        <test-method status="PASS" signature="brave()[pri:0, instance:testNGPractice1.TestNG1@32709393]" name="brave" duration-ms="6745" started-at="2023-02-15T16:54:34 IST" finished-at="2023-02-15T16:54:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brave -->
+        <test-method status="PASS" signature="chrome()[pri:0, instance:testNGPractice1.TestNG1@32709393]" name="chrome" duration-ms="3893" started-at="2023-02-15T16:54:40 IST" finished-at="2023-02-15T16:54:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome -->
+        <test-method status="PASS" signature="edge()[pri:0, instance:testNGPractice1.TestNG1@32709393]" name="edge" duration-ms="8577" started-at="2023-02-15T16:54:44 IST" finished-at="2023-02-15T16:54:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edge -->
+        <test-method status="PASS" signature="firefox()[pri:0, instance:testNGPractice1.TestNG1@32709393]" name="firefox" duration-ms="6706" started-at="2023-02-15T16:54:53 IST" finished-at="2023-02-15T16:55:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefox -->
+        <test-method status="PASS" signature="text()[pri:0, instance:testNGPractice1.TestNG1@32709393]" name="text" duration-ms="0" started-at="2023-02-15T16:55:00 IST" finished-at="2023-02-15T16:55:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- text -->
+      </class> <!-- testNGPractice1.TestNG1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
