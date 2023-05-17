@@ -1,61 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="49257" started-at="2023-02-15T16:54:34 IST" finished-at="2023-02-15T16:55:23 IST">
+  <suite name="Surefire suite" duration-ms="37668" started-at="2023-05-17T10:13:37 IST" finished-at="2023-05-17T10:14:15 IST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="49257" started-at="2023-02-15T16:54:34 IST" finished-at="2023-02-15T16:55:23 IST">
+    <test name="Surefire test" duration-ms="37668" started-at="2023-05-17T10:13:37 IST" finished-at="2023-05-17T10:14:15 IST">
       <class name="testNGPractice1.TestNG4">
-        <test-method status="PASS" signature="brave()[pri:0, instance:testNGPractice1.TestNG4@a7e666]" name="brave" duration-ms="4119" started-at="2023-02-15T16:55:05 IST" finished-at="2023-02-15T16:55:09 IST">
+        <test-method status="PASS" signature="brave()[pri:0, instance:testNGPractice1.TestNG4@33c7e1bb]" name="brave" duration-ms="3374" started-at="2023-05-17T10:13:59 IST" finished-at="2023-05-17T10:14:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brave -->
-        <test-method status="PASS" signature="chrome()[pri:0, instance:testNGPractice1.TestNG4@a7e666]" name="chrome" duration-ms="3278" started-at="2023-02-15T16:55:09 IST" finished-at="2023-02-15T16:55:12 IST">
+        <test-method status="PASS" signature="chrome()[pri:0, instance:testNGPractice1.TestNG4@33c7e1bb]" name="chrome" duration-ms="3098" started-at="2023-05-17T10:14:02 IST" finished-at="2023-05-17T10:14:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chrome -->
-        <test-method status="PASS" signature="edge()[pri:0, instance:testNGPractice1.TestNG4@a7e666]" name="edge" duration-ms="4809" started-at="2023-02-15T16:55:12 IST" finished-at="2023-02-15T16:55:17 IST">
+        <test-method status="PASS" signature="edge()[pri:0, instance:testNGPractice1.TestNG4@33c7e1bb]" name="edge" duration-ms="3928" started-at="2023-05-17T10:14:05 IST" finished-at="2023-05-17T10:14:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- edge -->
-        <test-method status="PASS" signature="firefox()[pri:0, instance:testNGPractice1.TestNG4@a7e666]" name="firefox" duration-ms="5573" started-at="2023-02-15T16:55:17 IST" finished-at="2023-02-15T16:55:23 IST">
+        <test-method status="PASS" signature="firefox()[pri:0, instance:testNGPractice1.TestNG4@33c7e1bb]" name="firefox" duration-ms="5337" started-at="2023-05-17T10:14:09 IST" finished-at="2023-05-17T10:14:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firefox -->
-        <test-method status="PASS" signature="text()[pri:0, instance:testNGPractice1.TestNG4@a7e666]" name="text" duration-ms="0" started-at="2023-02-15T16:55:23 IST" finished-at="2023-02-15T16:55:23 IST">
+        <test-method status="PASS" signature="text()[pri:0, instance:testNGPractice1.TestNG4@33c7e1bb]" name="text" duration-ms="0" started-at="2023-05-17T10:14:15 IST" finished-at="2023-05-17T10:14:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- text -->
       </class> <!-- testNGPractice1.TestNG4 -->
+      <class name="testNGPractice1.TestNG5">
+        <test-method status="PASS" signature="type()[pri:0, instance:testNGPractice1.TestNG5@34c4973]" name="type" duration-ms="0" started-at="2023-05-17T10:14:15 IST" finished-at="2023-05-17T10:14:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type()[pri:0, instance:testNGPractice1.TestNG5@34c4973]" name="type" duration-ms="0" started-at="2023-05-17T10:14:15 IST" finished-at="2023-05-17T10:14:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type()[pri:0, instance:testNGPractice1.TestNG5@34c4973]" name="type" duration-ms="0" started-at="2023-05-17T10:14:15 IST" finished-at="2023-05-17T10:14:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type()[pri:0, instance:testNGPractice1.TestNG5@34c4973]" name="type" duration-ms="0" started-at="2023-05-17T10:14:15 IST" finished-at="2023-05-17T10:14:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+        <test-method status="PASS" signature="type()[pri:0, instance:testNGPractice1.TestNG5@34c4973]" name="type" duration-ms="0" started-at="2023-05-17T10:14:15 IST" finished-at="2023-05-17T10:14:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type -->
+      </class> <!-- testNGPractice1.TestNG5 -->
       <class name="testNGPractice1.TestNG2">
-        <test-method status="PASS" signature="test1()[pri:0, instance:testNGPractice1.TestNG2@6737fd8f]" name="test1" duration-ms="5492" started-at="2023-02-15T16:55:00 IST" finished-at="2023-02-15T16:55:05 IST">
+        <test-method status="PASS" signature="test1()[pri:0, instance:testNGPractice1.TestNG2@2bbf4b8b]" name="test1" duration-ms="4501" started-at="2023-05-17T10:13:54 IST" finished-at="2023-05-17T10:13:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
       </class> <!-- testNGPractice1.TestNG2 -->
       <class name="testNGPractice1.TestNG1">
-        <test-method status="PASS" signature="brave()[pri:0, instance:testNGPractice1.TestNG1@32709393]" name="brave" duration-ms="6745" started-at="2023-02-15T16:54:34 IST" finished-at="2023-02-15T16:54:40 IST">
+        <test-method status="PASS" signature="brave()[pri:0, instance:testNGPractice1.TestNG1@2781e022]" name="brave" duration-ms="4597" started-at="2023-05-17T10:13:37 IST" finished-at="2023-05-17T10:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brave -->
-        <test-method status="PASS" signature="chrome()[pri:0, instance:testNGPractice1.TestNG1@32709393]" name="chrome" duration-ms="3893" started-at="2023-02-15T16:54:40 IST" finished-at="2023-02-15T16:54:44 IST">
+        <test-method status="PASS" signature="chrome()[pri:0, instance:testNGPractice1.TestNG1@2781e022]" name="chrome" duration-ms="3249" started-at="2023-05-17T10:13:42 IST" finished-at="2023-05-17T10:13:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chrome -->
-        <test-method status="PASS" signature="edge()[pri:0, instance:testNGPractice1.TestNG1@32709393]" name="edge" duration-ms="8577" started-at="2023-02-15T16:54:44 IST" finished-at="2023-02-15T16:54:53 IST">
+        <test-method status="PASS" signature="edge()[pri:0, instance:testNGPractice1.TestNG1@2781e022]" name="edge" duration-ms="4162" started-at="2023-05-17T10:13:45 IST" finished-at="2023-05-17T10:13:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- edge -->
-        <test-method status="PASS" signature="firefox()[pri:0, instance:testNGPractice1.TestNG1@32709393]" name="firefox" duration-ms="6706" started-at="2023-02-15T16:54:53 IST" finished-at="2023-02-15T16:55:00 IST">
+        <test-method status="PASS" signature="firefox()[pri:0, instance:testNGPractice1.TestNG1@2781e022]" name="firefox" duration-ms="5373" started-at="2023-05-17T10:13:49 IST" finished-at="2023-05-17T10:13:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firefox -->
-        <test-method status="PASS" signature="text()[pri:0, instance:testNGPractice1.TestNG1@32709393]" name="text" duration-ms="0" started-at="2023-02-15T16:55:00 IST" finished-at="2023-02-15T16:55:00 IST">
+        <test-method status="PASS" signature="text()[pri:0, instance:testNGPractice1.TestNG1@2781e022]" name="text" duration-ms="0" started-at="2023-05-17T10:13:54 IST" finished-at="2023-05-17T10:13:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- text -->
       </class> <!-- testNGPractice1.TestNG1 -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
