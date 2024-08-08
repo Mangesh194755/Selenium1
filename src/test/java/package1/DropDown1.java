@@ -20,6 +20,7 @@ public class DropDown1 {
 		WebElement board_dropdown = driver.findElement(By.xpath("//select[@id='searchGranularity']"));
 		Thread.sleep(2000);
 		Select board = new Select (board_dropdown);
+		
 		Thread.sleep(2000);
 		board.selectByIndex(0);
 		Thread.sleep(2000);
@@ -30,11 +31,6 @@ public class DropDown1 {
 		board.selectByVisibleText("This category");
 		Thread.sleep(2000);
 		
-		
-		
-		
-		
-		
 //		driver.get("https://www.facebook.com/");
 //		driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']")).click();
 //		WebElement month_dropdown = driver.findElement(By.xpath("//div//select[@id='month']"));
@@ -44,7 +40,6 @@ public class DropDown1 {
 //		month_dd.selectByValue("6");
 //		Thread.sleep(2000);
 //		driver.findElement(By.xpath("//button[@name='websubmit']")).click();
-		
 		
 		driver.quit();
 		

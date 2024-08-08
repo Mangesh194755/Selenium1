@@ -11,16 +11,19 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+
 public class BrokenLinks1 {
+	
+	static WebDriver driver = new FirefoxDriver();
 
 	public static void main(String[] args) throws InterruptedException {
 		WebDriverManager.firefoxdriver().setup();
 
-		WebDriver driver = new FirefoxDriver();
+		
 
 		driver.manage().window().maximize();
 
-		driver.get("https://www.lambdatest.com/");
+		driver.get("https://www.google.com/");
 
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 

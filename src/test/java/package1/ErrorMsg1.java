@@ -12,8 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class ErrorMsg1 {
 
 	@Test
-	public static void test1()
-	{
+	public static void test1() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		ChromeOptions options = new ChromeOptions();
@@ -23,15 +22,14 @@ public class ErrorMsg1 {
 		driver.findElement(By.xpath("//button[@name='websubmit']")).click();
 		String actual_error = driver.findElement(By.xpath("//div[contains(text(),\"What's your name?\")]")).getText();
 		String expected_error = "What's your name?";
-		
+
 		Assert.assertEquals(actual_error, expected_error);
 		driver.quit();
-				
+
 	}
-	
+
 	@Test
-	public static void test2()
-	{
+	public static void test2() {
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -42,24 +40,23 @@ public class ErrorMsg1 {
 
 		Assert.assertEquals(actual_error, expected_error, "Error matches");
 		driver.quit();
-		
+
 	}
-	
+
 	@Test
-	public static void test3()
-	{
+	public static void test3() {
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/reg/");
 		driver.findElement(By.xpath("//button[@name='websubmit']")).click();
 		String actual_error = driver.findElement(By.xpath("//div[contains(text(),\"What's your name?\")]")).getText();
-		//String expected_error = "What's your name?";
-		
+		// String expected_error = "What's your name?";
+
 		Assert.assertTrue(actual_error.contains("What's your name?"));
-		
+
 		driver.quit();
-		
+
 	}
-	
+
 }

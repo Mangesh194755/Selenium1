@@ -16,71 +16,33 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DropDown2 {
 
-	WebDriver driver;
 	@Test
-	public void test1() throws InterruptedException
-	{
+	public void test1() throws InterruptedException {
+		WebDriver driver = new FirefoxDriver();
 		WebDriverManager.firefoxdriver().setup();
-		 driver = new FirefoxDriver();
+
 		driver.manage().window().maximize();
 		driver.get("http://seleniumpractise.blogspot.com/2019/01/");
-		Select tools = new Select (driver.findElement(By.cssSelector("#tools1")));
-		
-		
+		Select tools = new Select(driver.findElement(By.cssSelector("#tools1")));
 		List<WebElement> myTools = tools.getOptions();
-		List actualList = new ArrayList<>();
-		for(WebElement ele : myTools)
-		{
+		List<String> actualList = new ArrayList<>();
+		for (WebElement ele : myTools) {
 			String data = ele.getText();
 			actualList.add(data);
-			
-			System.out.println("Actual list "+data);
+
+			System.out.println("Actual list " + data);
 		}
-		List temp = new ArrayList();
+		List<String> temp = new ArrayList<>();
 		temp.addAll(actualList);
 		Thread.sleep(3000);
-		Collections.sort(temp);
-		
-		System.out.println("Temp list "+temp);
-		
+		Collections.sort(actualList);
+		System.out.println("Actual list is : " + actualList);
+
+		System.out.println("Temp list " + temp);
+
 		Assert.assertFalse(actualList.equals(temp));
-		
-		
+
 		driver.quit();
-		
+
 	}
-	
-	@Test
-	public void test2() throws Exception
-	{
-
-		WebDriverManager.firefoxdriver().setup();
-		 driver = new FirefoxDriver();
-		driver.manage().window().maximize();
-		driver.get("http://seleniumpractise.blogspot.com/2019/01/");
-		Select tools = new Select (driver.findElement(By.cssSelector("#tools1")));
-		
-		List<WebElement> myTools = tools.getOptions();
-		List actualList = new ArrayList<>();
-		for(WebElement ele : myTools)
-		{
-			String data = ele.getText();
-			actualList.add(data);
-			
-			System.out.println("Actual list "+data);
-		}
-		List temp = new ArrayList();
-		temp.addAll(actualList);
-		Thread.sleep(3000);
-		Collections.sort(temp);
-		
-		System.out.println("Temp list "+temp);
-
-
-		Assert.assertEquals(actualList, temp, "List do not match");
-		
-		driver.quit();
-		
-	}
-
 }

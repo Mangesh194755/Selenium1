@@ -1,5 +1,6 @@
 package testNGPractice1;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 //import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,7 +18,9 @@ public class TestNG1
 				WebDriverManager.firefoxdriver().setup();
 				FirefoxDriver driver = new FirefoxDriver();
 				driver.manage().window().maximize();
-				driver.get("https://www.google.co.in/");		
+				driver.get("https://www.google.co.in/");
+				String firefoxTitle = driver.getTitle();
+				Assert.assertEquals(firefoxTitle, "Google");
 				driver.quit();
 			}
 			
@@ -27,7 +30,9 @@ public class TestNG1
 				WebDriverManager.chromedriver().setup();
 				ChromeDriver driver1 = new ChromeDriver();
 				driver1.manage().window().maximize();
-				driver1.get("https://www.google.co.in/");		
+				driver1.get("https://www.google.co.in/");	
+				String chromeTitle = driver1.getTitle();
+				Assert.assertEquals(chromeTitle, "Google");
 				driver1.quit();
 			}
 			
@@ -37,7 +42,9 @@ public class TestNG1
 				WebDriverManager.edgedriver().setup();
 				EdgeDriver driver2 = new EdgeDriver();
 				driver2.manage().window().maximize();
-				driver2.get("https://www.google.co.in/");		
+				driver2.get("https://www.google.co.in/");	
+				String edgeTitle = driver2.getTitle();
+				Assert.assertEquals(edgeTitle, "Google");
 				driver2.quit();
 			}
 			
@@ -49,7 +56,9 @@ public class TestNG1
 				opt.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
 				ChromeDriver driver3 = new ChromeDriver(opt);
 				driver3.manage().window().maximize();
-				driver3.get("https://www.google.co.in/");		
+				driver3.get("https://www.google.co.in/");	
+				String braveTitle = driver3.getTitle();
+				Assert.assertEquals(braveTitle, "Google");
 				driver3.quit();
 								
 			}
