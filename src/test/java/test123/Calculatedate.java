@@ -42,7 +42,7 @@ public class Calculatedate {
 		driver.findElement(By.xpath("//form[@name='calcf']//input[@type='submit']")).click();
 		Thread.sleep(1000);
 		
-		String output = driver.findElement(By.xpath("//h2[contains(text(),'Result')]")).getText();
+		String output = driver.findElement(By.xpath("//p[@class='bigtext']/b")).getText();
 		
 		System.out.println(output);
 				

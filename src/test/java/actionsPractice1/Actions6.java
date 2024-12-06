@@ -38,14 +38,14 @@ public class Actions6 {
 		//js.executeScript("window.scroll(0,500)");		
 		
 		act1.clickAndHold(driver.findElement(By.xpath("//p[text()='Drag me to my target']")))
-		//.pause(Duration.ofSeconds(5))
+		.pause(Duration.ofSeconds(5))
 		.moveToElement(driver.findElement(By.xpath("//p[text()='Drop here']")))
-		//.pause(Duration.ofSeconds(5))
+		.pause(Duration.ofSeconds(5))
 		.release()
 		.build()
 		.perform();
 		
-		//Thread.sleep(3000);
+		Thread.sleep(3000);
 		
 		driver.quit();
 		

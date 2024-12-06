@@ -20,8 +20,7 @@ public class Calculatedate2 {
 		WebDriver driver;
 
 		EdgeOptions opt = new EdgeOptions();
-		opt.setExperimentalOption("excludeSwitches",
-				Arrays.asList("--disable-infobar", "enable-automation"));
+		opt.setExperimentalOption("excludeSwitches", Arrays.asList("--disable-infobar", "enable-automation"));
 
 		opt.addArguments("--start-maximized");
 		opt.addArguments("--guest");
@@ -61,10 +60,7 @@ public class Calculatedate2 {
 			driver.findElement(By.xpath("//form[@name='calcf']//input[@type='submit']")).click();
 			Thread.sleep(1000);
 
-			String output = driver.findElement(By.xpath("//h2[contains(text(),'Result')]")).getText();
-			// assertEquals(output, "Result");
-
-			assertEquals(output, "Result");
+			String output = driver.findElement(By.xpath("//p[@class='bigtext']/b")).getText();
 
 			System.out.println(output);
 

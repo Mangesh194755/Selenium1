@@ -11,15 +11,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-
 public class BrokenLinks1 {
-	
+
 	static WebDriver driver = new FirefoxDriver();
 
 	public static void main(String[] args) throws InterruptedException {
 		WebDriverManager.firefoxdriver().setup();
-
-		
 
 		driver.manage().window().maximize();
 
